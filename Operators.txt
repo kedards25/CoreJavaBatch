@@ -1,0 +1,84 @@
+Operators
+	Operate on variables
+	variables in terms of operators are called as operands
+
+Assignment operator
+	=
+	helps us to assign value from right to left
+	a=5
+	value 5 is assigned to a i.e. value from right side assigned 	to left one
+
+Arithmatic Operators
+	+,-,/,*,%
+	
+	%=>modulus/modulo/mod->gives remainder after the division
+	5/2=2	=>Quotient
+	5%2=1	=>Remainder after division
+
+Arithmatic assignment operators
+	it performs arithmatic on one variable and stores the value 	back into same variable
+	a=5
+	a+=5	a=a+5	a=10
+	a-=5	a=a-5	a=5
+	a*=5	a=a*5	a=25
+	a/=5	a=a/5	a=5
+	a%=5	a=a%5	a=0
+
+Comparison operators
+	helps to perform comparison which will result into true or 	false
+	
+	>,<,>=,<=,==,!=
+	== helps to check for equality
+	!= checks if values are not equal
+
+	a=5
+	a==7	false
+	a!=4	true
+	
+	this operators give boolean ans(true or false)
+	a=7
+	!(a==10)	true
+	
+	!(a!=8)		false
+
+Logical operators
+	helps us to check more than one conditions together
+
+	AND(&&)	checks for affirmation of both condition
+	C1	C2	Res
+	T	T	T
+	T	F	F
+	F	T	F
+	F	F	F
+
+	OR(||) checks for affirmation of either condition
+	C1	C2	Res
+	T	T	T
+	T	F	T
+	F	T	T
+	F	F	F
+
+	NOT(!) 	Negates the result
+	C1	Res
+	T	F
+	F	T
+
+Unary Operators
+	These operators work on single variable
+	helps us to increment or decrement the value by 1
+	a=5
+	a++	a=a+1	a=6
+	a--	a=a-1	a=5
+
+	Post-increment(	First assignment then increment)
+	x=5	y=8
+	x=y++
+	x=8	y=9
+
+	Pre-increment(First increment then assignment)
+	x=5	y=8
+	x=++y
+	x=9	y=9
+
+
+

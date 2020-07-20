@@ -1,0 +1,44 @@
+Java
+	Core Java
+		basic as well as in depth knowledge of Java
+		developing GUI(Graphical User Interface) standalone 		apps
+
+	Adv Java
+		Development of web applications using Java
+		
+
+Java is not only a programming language but also a technology
+
+Features of Java
+	
+Simple
+	We declare variables to store the values,if we consider variables as containers to store 	the value,these containers have to be vacant after the use of variables is finished.It 		will lead to garbage collection i.e. accumulation of unwanted memory locations in 	computer.
+	So as a developer we have take care of making sure that the variable is no more in use 	and then only the memory should be cleared,which is quiet tidious task.Java has a 	feature of Garbage Collection which is responsible for taking care of these unwanted 	memories.
+
+Object-Oriented
+	Code will be developed for all the objects belonging to particular category and not for 	an individual object of any category
+	These objects are real world entites and hence relating and solving problems related to 	them is quiet easy
+
+Platform Independence
+	Computer understands machine language which is also known as binary language comprising 	of 0 and 1
+	On successful compilation,code will be converted into platform independent 	bytecode,which further be interpreted into machine language which can be executed on 	particular platform
+
+Portable
+	Wherever Java is installed,JVM is installed along with it.
+	Hence if you write a code on one platform,you can run the code on other platform with no 	or minimal changes
+
+Distributed
+	Using Java  one can develop desktop(standalone application)
+	as well as applications which can be distributed over the network.
+	To create such apps which should work over the network
+	we can use (TCP/IP) for an organisation or HTTP for web
+
+Secure
+	Java makes sure that you get access to the resource which you require to execute your 	code and not all the resources
+	Your code if first compiled by JVM and then JVM interprets your bytecode for any 	malicious code or vulnarabilities.
+
+Robust
+	Java has powerful mechanism to handle errors and memory management as well which ensures 	that machine will not crash in case if code fails to execute
+
+Multithreaded
+	Java runs in multithreaded environment and hence it allows you to achieve multitasking 	as same time

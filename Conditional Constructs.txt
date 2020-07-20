@@ -1,0 +1,59 @@
+Types of if..else
+1.simple if
+if()
+{
+	//code to execute if condition is true
+}
+
+2.Simple if..else
+if()
+{
+	//code to execute if condition is true
+}
+else
+{
+	//code to execute if condition is false
+}
+
+3.nested if
+//inner if will be executed when outer condition is true
+if()	
+{
+	if()
+	{
+		//code to execute if both conditions are true
+	}
+	else
+	{
+		//code to execute if inner condition is false
+	}
+}
+else
+{
+	//code to execute if outer condition is false
+}
+
+4.nested else..if/else if ladder	
+//inner if will be executed when outer condition is false
+if()
+{
+	//code to execute if condition is true
+}
+else
+{
+	if()
+	{
+		//code to execute if condition is true
+	}
+	else
+	{
+		if()
+		{
+			//code to execute if condition is true
+		}
+		else
+		{
+			//code to execute if condition is false
+		}
+	}
+}

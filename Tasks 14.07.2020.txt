@@ -1,0 +1,6 @@
+1.WAP to accept distance in KM and display it in meters
+2.WAP to calculate simple interest by accepting principle amt,rate  of interest and duration
+3.Accpet two numbers from user and swap them
+	e.g.a=5,b=7	a=7,b=5
+4.WAP to calculate the weight of the person on moon by accepting his  weight on earth
+5.WAP to calculate the velocity by accepting initial speed ,time and  acceleration

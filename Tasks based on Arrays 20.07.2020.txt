@@ -1,0 +1,21 @@
+1.WAP to display sum of two multi dimensional arrays
+2.WAP to display reverse of single dimensional array
+3.WAP to display following patterns
+a.
+	*
+	*	*	
+	*	*	*
+	*	*	*	*
+
+b.
+	p
+	p	q
+	p	q	r
+	p	q	r	s
+
+c.
+	*
+	1	2
+	*	*	*
+	1	2	3	4
+
