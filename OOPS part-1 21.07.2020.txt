@@ -1,0 +1,85 @@
+Array is reference variable and by default it refers to first memory location and all further memory locations as an offset from first one hence array accesses memories by index in which the first index to which it by default refers is 0 and next in the sequence has an offset of 1
+
+
+OOPS
+Object Oriented Programming System
+	Attributes and functions applicable to one object will be 
+	applicable to all the objects of same category
+
+Two pillars of OOPS
+	Objects and Classes
+	
+	Objects
+		Any real world entity is referred to as an object
+		An object can be identified by its state and 		behavior
+
+	OOPS		General			Programatic
+	state		props/Attributes	variables
+	behavior	Functionality		methods
+	identity	unique thing		constants
+
+	Two object can have same state and behavior but will never 		have same identity
+	
+	Classes
+	Collection of objects having same state and behavior or
+	objects belonging to particular class will exhibit all the 		states and behavior of that class
+
+	classes are conceptual but objects are physical
+
+	Objects of two classes can communicate with each other 	through messages
+	Action taken by one object in response to message given by 	another object is called as method
+
+Why OOPS?
+	Realistic Modelling
+		everything can be related to real world,hence 		problem solving becomes easy
+	
+	Reusability
+		code written for one object can be used for another 		object
+
+	Resilience(flexibility) to change
+		existing code can be modified very easily
+
+	
+	Modularity
+		Separation of concerns
+		inter-related things will be bundled together
+		while troubleshooting the code,only particular 		module is affected and not all 
+
+		Loose Coupling
+		Dependency upto least extent
+	
+	Information hiding
+		Allows to show the information which is required by 		the user and not everything
+		Hiding unneccessary information from the user
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

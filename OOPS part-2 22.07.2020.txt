@@ -1,0 +1,76 @@
+In order to make two objects communicate with each other,they must be associated with each other which can be called as relationship
+
+Types of relationships
+Composition Relationship
+	One object is composed of other object
+	e.g.Car has an engine
+	has-a 	part-of
+	Car has an engine
+	Engine is part of car
+
+Utilisation Relationship
+	One object uses another object
+	An engine uses fuel
+	
+
+Instantiation Relationship
+	One object is an instance of a class
+	CBR650 is a bike
+
+Generalisation Relationship
+	Things required by multiple classes gathered together in 
+	a common class
+
+
+Features of OOPS
+Encapsulation
+	Enclosing the code and members in a container(class)in order 	to prevent access to them and attain security.
+	Hiding unneccessary data from the user.
+	Information Hiding
+
+Abstraction
+	Showing data required by the user
+
+Abstraction and encapsulation go hand in hand.
+
+Polymorphism
+	It is taken from greek words
+	Poly means many
+	Morphos means forms
+	One object existing in many forms
+	
+
+Inheritance
+	it helps us to implement reusability by implementing code 	from one class in another
+	In order to use functionality of one class in another,they 		must be associated with each other using inheritance
+	This gives us parent-child relationship
+	child class can access non-private members of parent class
+	non-child classes can access data from parent through child 	object
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+	
+
+		
+	
