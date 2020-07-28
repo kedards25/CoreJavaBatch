@@ -1,0 +1,21 @@
+Constructors
+	Constructors are special methods which are used to initialize 	member variables at run time/dynamically
+	Constructors have same name as that of class name
+	Constructors need not to be invoked separately using objects,
+	they are invoked automatically as soon as object of the class 	is created so we can say that as many times you create the 	object,those many times constructor will be invoked
+	Constructors cannot have any logic within its body,we can 	initialize member variables only and hence constructors do not 	have return type
+	Constructors can have access specifier
+	Constructors cannot be inherited
+	Constructors can receive parameters as same as other methods
+
+Enumerations
+	Enumerations allow developers to provide range of values to 		user to choose from
+	Enumerations are treated as level that of class 
+	hence it can be declared outside the class as well
+
+Professionally followed conventions
+ClassName		=>UpperCamelCase
+methods,variables	=>lowerCamelCase
+objects 		=>same as class name in lowerCamelCase
+Constants		=>UPPERCASE
+

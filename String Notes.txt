@@ -1,0 +1,16 @@
+String is a class in java.lang
+
+Heap Memory=>area in jvm where objects are stored
+string constant pool=>pool to store string literals(variables/objects)
+
+String is an immutable class,once the object of the class is created then we cannot change its value but if we create variable using String as data type then those variables are mutable
+Everytime we manipulate the string object,new String object is created in the memory hence String is called as immutable class
+
+String val=new String("sample")	//val is immutable
+
+String txt="Demo";	//txt is mutable
+
+Data types
+	premitive
+	derived
+	reference=>String,Array
