@@ -1,0 +1,41 @@
+Inheritance allows child class to access non-private members of parent class thus achieving reusability but parent class cannot access members of child
+Code derived from parant class can be given new functionality in child class
+Types
+	Single Inheritance
+		Single parent class and single child class
+	
+	Multiple Inheritance
+		More than one parent class
+
+	Multi-level
+		Inheritance from grandparent class to parent class
+		and from parent class to child class
+
+java supports single inheritance in case of classes
+
+if we create main in child it will be able to access members of parent hence main class will be child class
+
+
+Abstraction
+abstraction will allow us to show what is going to happen but not how it will happen
+In order to achieve abstraction,we can create abstract classes
+abstract classes are the one in which there are methods without body,only method declaration and not the definition
+we can say that abstract classes are incomplete classes and hence they need to be inherited and given body to methods from abstract class
+As these classes are incomplete we cannot create objects of abstract classes 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
