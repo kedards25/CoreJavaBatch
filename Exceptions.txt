@@ -1,0 +1,38 @@
+Types of errors
+	Syntax=>Compile Time errors
+		e.g.	missing ,; or mismatching {},()
+		These errors can be handled at the time of compiling 			the code
+	Logical errors
+		e.g.	want to perform addition and using *
+		code will compile and execute successfully but will 		not give any desired output
+	Runtime errors
+		e.g.Withdrawal of money using ATM
+		Errors those may or may not occur at the time of 		execution so in order to handle these errors we have 		to write code in such a way that if there is any error 		then that should be handled gracefully so that the 		code does not end abruptly
+
+Throwable is the base class to handle all the exceptions in Java which gets inherited by Exception and Error class
+Exception class
+	contains error which we should handle
+
+Error class
+	Contains errors which occur due to java runtime environment
+
+Types of Exception
+	Checked exception
+		The exceptions which compiler is aware of and would 		suggest the developer to write the code to handle the 		error that may occur
+
+	Unchecked exception
+		The exceptions which compiler is unaware of and would 		not suggest the developer to write the code to handle 		the error that may occur
+
+To implement exception handling we need to enclose the code in either try..catch block or should be decorated with throw or throws keyword
+
+Try..catch block can be used to handle exceptions that may occur while
+connecting to external resources such as Database or file so despite of the error we should close the resource
+so we should put that code in finally block
+finally block executes irrespective of exception
+
+
+
+
+
+
+

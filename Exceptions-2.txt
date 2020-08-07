@@ -1,0 +1,13 @@
+next concept is rethrow
+
+rethrow is used to throw an exception again from catch block
+
+In real world situations,if we throw these kind of errors involving technical terms,common people will not understand these keywords
+for e.g.
+	If an ATM machine do not have connection with the server then instead of showing that technical error we get a simple message stating "Out of Service" which can be easily understood by everyone
+
+in above case we can create our own exception which will show a valid error message to be understood by everyone
+
+In order to create our own exception we need to create our own exception class and make it inherit the base class i.e. Exception class
+lets start with the code
+
