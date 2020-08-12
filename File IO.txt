@@ -1,0 +1,110 @@
+File IO
+File Input Output
+
+Stream
+	Flow of data from source to destination
+	When stream of data is sent==>write
+	When stream of data is received==>read
+
+Input stream
+		reading
+Output stream
+		Writing
+
+Traditional try catch block
+
+try
+{
+	//code to open the resource
+	//code to access the resource
+	//code to perform operation
+}
+catch(Exception e)
+{
+
+}
+finally
+{
+	try{
+		//code to close the resource
+	}
+	catch(Exception e)
+	{
+
+	}
+}
+
+Try with Resources
+try(res1;res2;res3;res4)
+{
+
+}
+catch()
+{
+
+}
+we can mention more than one resources separated by a semicolon ';'
+try block will help to open mentioned resources one by one
+if it gets an error while opening any of the resources then it will
+jump to catch block
+If any error occurs while performing operations on any resource then it will jump to catch block
+Try with resources will try to close the resources in the order opposite in which they were opened
+This is achieved with Autoclosable interface
+if it gets an error while closing the resources then also it will
+jump to catch block thus avoiding lengthy finally block
+
+
+
+
+A=B
+B=C
+
+A=C
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
