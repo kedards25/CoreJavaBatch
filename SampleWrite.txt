@@ -1,0 +1,3 @@
+Welcome to core Java
+let's start
+newly added Text
