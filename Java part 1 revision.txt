@@ -1,0 +1,76 @@
+Why is Java called distributed??
+What is the use of JIT?
+long a=1012_1234_237; =>is it valid??
+ASCII	=>American Standard Code for Information Interchange
+a=7
+if(a>5)
+	S.O.P("greater");
+else
+	S.O.P("Smaller")
+
+int i=0;
+for(;i<10;i++)
+{
+	S.O.P("Hello")
+}
+
+
+do
+{
+	//code here
+	
+}while(condition);
+
+can we use for-each loop in multi-dimensional array?
+
+Difference between abstraction and encapsulation?
+
+Can we have constructor with static modifier in our code??
+if yes then how to invoke it?
+new ConstructorName();
+
+Can we inherit and modify anything declared with final keyword??
+
+what is "called function" and what is "calling function"??
+
+Is downward casting possible??
+class DemoP
+{
+}
+class DemoC extends DemoP
+{
+	main()
+	{
+		DemoP dp=new DemoP();
+		DemoC dc=(DemoC)dp;//valid at compile time
+				//but throws error at runtime
+	}
+}
+
+what are VarArgs?
+syntax to access varArgs in method param??
+
+what is the meaning of "?" in RegEx
+
+what are try-with-resources?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

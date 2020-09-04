@@ -1,0 +1,13 @@
+Limitations of inheritance
+	Parent cannot access properties of child class
+	Child cannot access private members off parent
+
+To overcome these limitations, we have concept of inner classes
+We can declare child class within definition of parent class
+
+	Inner classes
+	Static nested classes
+	Method local inner classes
+	Anonymous classes
+		One of the class will be unknown
+		Unknown means class is used from pre-defined package

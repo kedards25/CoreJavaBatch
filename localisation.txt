@@ -1,0 +1,16 @@
+making our application available to local people
+Things to be considered while localising the application
+	Language
+	Currency
+	Date and Time
+
+To handle all these things we have been given a class called Locale
+Constructor of locale accepts language-COUNTRY pair 
+en-US
+en-ES
+ru-RU
+de-DE
+fr-FR
+zh-CN
+
+	
