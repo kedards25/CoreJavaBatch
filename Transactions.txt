@@ -1,0 +1,21 @@
+Any transaction should possess following properties
+
+Atomicity
+	Transaction would either complete or rolled back
+
+Consistency
+	Data that we receive is in consistent format	
+
+Isolation
+	When two or more transactions try to access same data 	concurrently,the transactions execute independent of each other
+
+Durability
+	Making sure that data is available even in case of system 	failure
+
+Implicit
+	Default Mode of SQL
+	Auto-commits all the transactions
+
+Explicit
+	Can be implemented by setting autocommit(false)
+	and then committing the transaction explicity,we can roll back 	transaction in case of failure/exception
